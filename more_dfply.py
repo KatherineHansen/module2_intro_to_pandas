@@ -7,7 +7,7 @@ from string import punctuation, whitespace
 from functoolz import pipeable
 from functools import reduce
 from toolz import identity, last
-from unpythonic import unfold
+#from unpythonic import unfold
 
 STARTS_WITH_DIGITS_REGEX = re.compile(r'\d+')
 PUNC_REGEX = re.compile('[{0}]'.format(re.escape(punctuation.replace('_', ''))))
